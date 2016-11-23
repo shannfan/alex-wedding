@@ -12,7 +12,8 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="screen" title="no title" charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://player.vimeo.com/api/player.js"></script>
   <script src="scrollspy.js" charset="utf-8"></script>
@@ -32,8 +33,10 @@
                     // How zoomed in you want the map to start at (always required)
                     zoom: 11,
 
+                    scrollwheel: false,
+
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                    center: new google.maps.LatLng(40.038619,-76.3027559), // Lancaster
 
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
@@ -49,7 +52,7 @@
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    position: new google.maps.LatLng(40.038619,-76.3027559),
                     map: map,
                     title: 'Snazzy!'
                 });
@@ -62,70 +65,174 @@
 <body id="view">
   <div id="wrapper">
   <div class="container-full-width header">
-    <p>Alex + Alex</p>
+    <p>Alex <span class="emph">and</span> Alex<br/>
+    <span class="emph">December 9, 2017</span></p>
   </div>
   <div class="container-full-width full-photo">
-    <p>December 9, 2017</p>
+
   </div>
 
-  <div class="container">
+  <div class="container narrow">
     <h3>Alex and Alex are getting married!</h3>
-    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam. Nullam dapibus turpis mi, eget tincidunt est vestibulum ut. Integer quis mollis quam, dapibus dictum sapien. In posuere ullamcorper quam, et tincidunt elit vulputate eu.</p>
+    <p class="intro">Alex and Alex are getting married in December in Lancaster, Pennsylvania. We can’t wait to celebrate with you, and we are so appreciative of everyone’s love and support! You are the best! Please keep checking back for updates as we finalize details.</p>
   </div>
 
-  <div class="container add-space">
+  <div class="container narrow">
+    <h4>December 9, 2017</h4>
+  </div>
+
+  <div class="container-tl">
     <div class="row">
-      <div class="col-pl-50 col-tl-50"">
-          <div class="photo-frame-rect"><img src="images/placeholder2.jpg"></div>
+      <div class="col-pl-50 col-tl-50 ">
+          <p class="subhead">Ceremony and Reception, 5:00pm–10:00pm</p>
+          <p><b>At EXCELSIOR, Lancaster PA 125 East King Street</b></p>
+          <p>We are so excited to have you be a part of our wedding ceremony. We encourage you to arrive early as the ceremony will begin promptly at 5pm. The cocktail hour will begin after the ceremony at 5:30pm. </p>
       </div>
-      <div class="col-pl-50 col-tl-50">
-           <div class="photo-frame-rect"><img src="images/placeholder3.jpg"></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="add-space">
-   <center><div><img class="ornament" src="images/heart.svg"></div></center>
-  </div>
-
-  <div class="container-tl add-space">
-    <div class="row">
-      <div class="col-pl-50 col-tl-50"">
-          <h4>Friday, December 8th</h4>
-          <p class="subhead">Rehearsal Dinner 6:00 PM</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-
-          <p class="subhead">Kick-Off Party 9:00 PM</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-      </div>
-      <div class="col-pl-50 col-tl-50">
-          <h4>Saturday, December 9th</h4>
-          <p class="subhead">Ceremony 6:00 PM</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-
-          <p class="subhead">Reception 7:00 PM</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
+      <div class="col-pl-50 col-tl-50 ">
+          <p class="subhead">After Party, 10:00pm On</p>
+          <p><b>Details to Come!</b></p>
       </div>
     </div>
   
   </div>
 
-  <div class="add-space">
-    <center><div><img class="ornament" src="images/heart.svg"></div></center>
-  </div>
 
-  <div class="container add-space">
+  <div class="container narrow add-space">
     <div id="map"></div>
   </div>
 
-  <div class="add-space">
-    <center><div><img class="ornament" src="images/heart.svg"></div></center>
+
+  <div class="container narrow">
+    <h3>Where to stay</h3>
+    <p class="intro">It's going to be a busy weekend in Lancaster, and we are working hard to keep everyone within walking distance or a short drive of the wedding festivities downtown. Due to limited availability, we encourage you to book your rooms now.  We're working with two downtown hotels for both Friday and Saturday nights. Details below!! </p>
   </div>
 
-  <div class="container add-space">
-    <h3>Where to stay</h3>
-    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam. Nullam dapibus turpis mi, eget tincidunt est vestibulum ut. Integer quis mollis quam, dapibus dictum sapien. In posuere ullamcorper quam, et tincidunt elit vulputate eu.</p>
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-50 col-tl-50">
+          <p class="subhead">The Hotel Lancaster</p>
+          <p>Call and mention the Johnson/Hirschberg Wedding to reserve in our block. This hotel is an 8 minute walk to the venue, but a shuttle will also be making pick-ups. Parking is available at a discounted rate of $10/day at the Duke Street Parking Garage adjacent to the hotel. </p>
+          <p><b>123 Address Goes Here, New York, NY 10011<br/>
+          1-717-394-0900<br/>
+          Rooms start at $139</br/>
+          <a target="_blank" href="http://www.thehotellancaster.com/">thehotellancaster.com</a>
+          </b></p>
+          
+      </div>
+      <div class="col-pl-50 col-tl-50 ">
+          <p class="subhead">Lancaster Arts Hotel</p>
+          <p>Call and mention the Johnson/Hirschberg Wedding to reserve in our block. Parking is available free of charge. Shuttle service will be provided to the venue, or you can make the quick, 5 minute drive and park across the street at the East King Street Garage. </p>
+          <p><b>300 Harrisburg Ave, Lancaster, PA 17603<br/>
+          (717) 299-3000<br/>
+          Rooms start at $159</br/>
+          <a target="_blank" href="http://www.lancasterartshotel.com/">lancasterartshotel.com</a>
+          </b></p>
+      </div>
+    </div>
+  
   </div>
+
+
+
+  <div class="container narrow">
+    <h3>How to get there</h3>
+    <p>We are so grateful that you are making the trip to Lancaster for our wedding celebration. </p>
+  </div>
+
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-33 col-tl-33">
+          <p class="subhead">Planes</p>
+          <p>The closest airport is Harrisburg (MDT), which is about 40 minutes away from Lancaster. The Philadelphia airport (PHL) and Baltimore airport (BWI) are both an hour and 30 minute drive from Lancaster. Amtrak runs from the Philadelphia airport directly to Lancaster. </p>
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <p class="subhead">Trains</p>
+          <p>For those without cars and coming from the Northeast, Amtrak stops directly in Lancaster (LNC).  If you are traveling from New York, the train goes directly to Lancaster and is a 2 hour 45 minute train ride. Yes and, there is UBER in Lancaster to help you get around once you get here! </p>
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <p class="subhead">Automobiles</p>
+          <p>If you are driving in, do remember that Lancaster is surrounded by Amish Farms and you may see an Amish buggy or two driving down the road. Please be careful when passing a buggy! </p>
+      </div>
+    </div>
+  
+  </div>
+  
+  </div>
+
+
+  <div class="container narrow">
+    <h3>Visiting Lancaster</h3>
+  </div>
+
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-33 col-tl-33 ">
+          <p class="subhead">Lancaster Central Market</p>
+          <p><a target="_blank" href="http://www.centralmarketlancaster.com/">Learn More</a></p>
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <p class="subhead">Thistle Finch Distillery</p>
+          <p><a target="_blank" href="http://www.thistlefinch.com/#home">Learn More</a></p>
+
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <p class="subhead">Lancaster Brewing Company</p>
+          <p><a target="_blank" href="https://www.lancasterbrewing.com/index.php">Learn More</a></p>
+
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-33 col-tl-33 ">
+          <p class="subhead">Fulton Theater</p>
+          <p><a target="_blank" href="http://www.thefulton.org/">Learn More</a></p>
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <p class="subhead">Tanger Outlet Shopping</p>
+          <p><a target="_blank" href="http://www.tangeroutlet.com/lancaster">Learn More</a></p>
+
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <p class="subhead">Wheatland</p>
+          <p><a target="_blank" href="http://www.cbsnews.com/news/worst-president-ever-the-ignominy-of-james-buchanan/">Learn More</a></p>
+
+      </div>
+    </div>
+  
+  </div>
+
+
+  <div class="container narrow">
+    <h3>Registry</h3>
+    <p class="intro">Please know that your presence at a wedding is more than enough but if you would like to send good wishes in the form of a gift, we will be registering at a few locations. Details to come! </p>
+  </div>
+
+<!--**REGISTRY**
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-33 col-tl-33 ">
+          <a class="registry" href="http://www.melcher.com" target="_blank">Amazon</a>
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <a class="registry" href="http://www.melcher.com" target="_blank">Crate &amp; Barrel</a>
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <a class="registry" href="http://www.melcher.com" target="_blank">Macy's</a>
+      </div>
+    </div>
+  
+  </div>
+
+  -->
+
+  <div class="add-space">
+  <p>&nbsp;</p>
+  </div>
+
+
 		
   </div> <!--END WRAPPER-->
 

@@ -1,43 +1,69 @@
-$sage: #8BA974;
+$sage: #8c988f;
 $gray: #807F83;
 
 p{
-	font-family: 'Muli', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: $gray;
 	font-size:.9em;
 }
 
+a{
+	color:$gray;
+}
+
+a:hover{
+	color:$sage;
+}
+
+a:visited{
+	color:$sage;
+}
+
+a:focus{
+	color:$sage;
+}
+
 h3{
 	color:$sage;
-	text-align:center;
+	font-family: 'Work Sans', sans-serif;
+	font-weight:bold;
 }
 
 h4{
 	color:$sage;
 	margin-bottom:25px;
 	text-decoration:underline;
+	font-family: 'Work Sans', sans-serif;
+	font-weight:bold;
+}
+
+.emph{
+	color:white;
 }
 
 .subhead{
 	text-transform:uppercase;
 	color:$sage;
 	margin-bottom:0em;
+	margin-top:10px;
+	font-weight:bold;
 }
 
 .header{
 	background-color:$sage;
-	height:80px;
+	height:100px;
 }
 
 .header p{
-	color: white;
+	color: black;
 	margin-top: 28px;
 	text-align: center;
+	font-family: 'Work Sans', sans-serif;
 	font-weight:bold;
 }
 
 .full-photo{
-	background: url(../images/placeholder.jpg) no-repeat center center fixed; 
+	background: url(../images/alexalex_bw.jpg) no-repeat center center fixed; 
 	height:70vh;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -49,14 +75,17 @@ h4{
 	font-size: 2em;
 	color: white;
 	text-align: center;
-	font-weight: bold;
 	position: relative;
 	margin-top:30vh;
+	font-family: 'Work Sans', sans-serif;
+	font-weight:bold;
+}
+
+.narrow{
+	max-width:965px;
 }
 
 .intro{
-	text-align:center;
-	max-width:700px;
 	margin:auto;
 	margin-bottom: 20px;
 	font-size:1em;
@@ -76,12 +105,12 @@ h4{
 }
 
 .ornament{
-	width:30px;
-	margin-top:20px;
+	width:60px;
+	margin-top:15px;
 }
 
 .add-space{
-	margin-top:30px;
+	margin-top:35px;
 }
 
 #map {
@@ -89,4 +118,36 @@ h4{
     height: 500px;
     margin: auto;
 }
+
+.centered p{
+	text-align: center;
+}
+
+.registry{
+	display: block;
+    max-width: 320px;
+    border: solid 2px $sage;
+    margin: 0 auto;
+    margin-bottom:15px;
+    color:$sage;
+    line-height: 44px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.registry:hover{
+	border: none;
+    color:white;
+    background-color:$sage;
+}
+
+.footer{
+	color:$sage;
+	font-weight:bold;
+	text-align:center;
+	margin-top:40px;
+}
+
 

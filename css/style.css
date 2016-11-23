@@ -1,34 +1,55 @@
 p {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #807F83;
   font-size: .9em; }
 
+a {
+  color: #807F83; }
+
+a:hover {
+  color: #8c988f; }
+
+a:visited {
+  color: #8c988f; }
+
+a:focus {
+  color: #8c988f; }
+
 h3 {
-  color: #8BA974;
-  text-align: center; }
+  color: #8c988f;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold; }
 
 h4 {
-  color: #8BA974;
+  color: #8c988f;
   margin-bottom: 25px;
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold; }
+
+.emph {
+  color: white; }
 
 .subhead {
   text-transform: uppercase;
-  color: #8BA974;
-  margin-bottom: 0em; }
+  color: #8c988f;
+  margin-bottom: 0em;
+  margin-top: 10px;
+  font-weight: bold; }
 
 .header {
-  background-color: #8BA974;
-  height: 80px; }
+  background-color: #8c988f;
+  height: 100px; }
 
 .header p {
-  color: white;
+  color: black;
   margin-top: 28px;
   text-align: center;
+  font-family: 'Work Sans', sans-serif;
   font-weight: bold; }
 
 .full-photo {
-  background: url(../images/placeholder.jpg) no-repeat center center fixed;
+  background: url(../images/alexalex_bw.jpg) no-repeat center center fixed;
   height: 70vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -39,13 +60,15 @@ h4 {
   font-size: 2em;
   color: white;
   text-align: center;
-  font-weight: bold;
   position: relative;
-  margin-top: 30vh; }
+  margin-top: 30vh;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold; }
+
+.narrow {
+  max-width: 965px; }
 
 .intro {
-  text-align: center;
-  max-width: 700px;
   margin: auto;
   margin-bottom: 20px;
   font-size: 1em; }
@@ -63,15 +86,42 @@ h4 {
   min-height: 100%; }
 
 .ornament {
-  width: 30px;
-  margin-top: 20px; }
+  width: 60px;
+  margin-top: 15px; }
 
 .add-space {
-  margin-top: 30px; }
+  margin-top: 35px; }
 
 #map {
   max-width: 1200px;
   height: 500px;
   margin: auto; }
+
+.centered p {
+  text-align: center; }
+
+.registry {
+  display: block;
+  max-width: 320px;
+  border: solid 2px #8c988f;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  color: #8c988f;
+  line-height: 44px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.registry:hover {
+  border: none;
+  color: white;
+  background-color: #8c988f; }
+
+.footer {
+  color: #8c988f;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px; }
 
 /*# sourceMappingURL=style.css.map */
