@@ -1,55 +1,55 @@
 p {
   font-family: 'Work Sans', sans-serif;
-  color: #807F83;
+  color: #535255;
   font-size: .9em; }
 
 a {
-  color: #807F83; }
+  color: #535255; }
 
 a:hover {
-  color: #8c988f; }
+  color: #1e5343; }
 
 a:visited {
-  color: #8c988f; }
+  color: #1e5343; }
 
 a:focus {
-  color: #8c988f; }
+  color: #1e5343; }
 
 h3 {
-  color: #8c988f;
+  color: #2b3b4b;
   font-family: 'Work Sans', sans-serif;
   font-weight: bold; }
 
 h4 {
-  color: #8c988f;
+  color: #2b3b4b;
   margin-bottom: 25px;
   text-decoration: underline;
   font-family: 'Work Sans', sans-serif;
   font-weight: bold; }
 
 .emph {
-  color: white; }
+  color: #dbdadf; }
 
 .subhead {
   text-transform: uppercase;
-  color: #8c988f;
+  color: #4c5d6f;
   margin-bottom: 0em;
   margin-top: 10px;
   font-weight: bold; }
 
 .header {
-  background-color: #8c988f;
+  background-color: #4c5d6f;
   height: 100px; }
 
 .header p {
-  color: black;
+  color: #a28d62;
   margin-top: 28px;
   text-align: center;
   font-family: 'Work Sans', sans-serif;
   font-weight: bold; }
 
 .full-photo {
-  background: url(../images/alexalex_bw.jpg) no-repeat center center fixed;
+  background: url(../images/new-york-city-engagement-9.jpg) no-repeat center center fixed;
   height: 70vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -71,7 +71,7 @@ h4 {
 .intro {
   margin: auto;
   margin-bottom: 20px;
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 .photo-frame-rect {
   display: flex;
@@ -103,10 +103,10 @@ h4 {
 .registry {
   display: block;
   max-width: 320px;
-  border: solid 2px #8c988f;
+  border: solid 2px #2b3b4b;
   margin: 0 auto;
   margin-bottom: 15px;
-  color: #8c988f;
+  color: #1e5343;
   line-height: 44px;
   letter-spacing: 2px;
   text-align: center;
@@ -116,10 +116,10 @@ h4 {
 .registry:hover {
   border: none;
   color: white;
-  background-color: #8c988f; }
+  background-color: #4c5d6f; }
 
 .footer {
-  color: #8c988f;
+  color: #1e5343;
   font-weight: bold;
   text-align: center;
   margin-top: 40px; }
